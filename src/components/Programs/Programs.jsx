@@ -11,23 +11,23 @@ const Programs = () => {
   return (
     <div className='programs'>
         <div className="program">
-            <img src={program_1} alt="" />
+            <img src={program_1} />
             <div className="caption">
-                <img src={program_icon_1} alt="" />
+                <img src={program_icon_1}/>
                 <p>Graduation Degree</p>
             </div>
         </div>
         <div className="program">
-            <img src={program_2} alt="" />
+            <img src={program_2}/>
             <div className="caption">
-                <img src={program_icon_2} alt="" />
+                <img src={program_icon_2}/>
                 <p> Master Degree</p>
             </div>
         </div>
         <div className="program">
-            <img src={program_3} alt="" />
+            <img src={program_3}/>
             <div className="caption">
-                <img src={program_icon_3} alt="" />
+                <img src={program_icon_3}/>
                 <p>Post Graduation</p>
             </div>
         </div>

@@ -27,14 +27,14 @@ const slideBackward = () =>{
 
   return (
     <div className='testimonials'>
-        <img src={next_icon} alt="" className='next-btn' onClick={slideForward}/>
-        <img src={back_icon} alt="" className='back-btn' onClick={slideBackward}/>
+        <img src={next_icon} className='next-btn' onClick={slideForward}/>
+        <img src={back_icon} className='back-btn' onClick={slideBackward}/>
         <div className="slider">
             <ul ref={slider}>
                 <li>
                     <div className="slide">
                         <div className="userinfo">
-                            <img src={user_1} alt="" />
+                            <img src={user_1} />
                             <div>
                                 <h3>Phoebe Jackson</h3>
                                 <span>Edusity, USA</span>
@@ -46,7 +46,7 @@ const slideBackward = () =>{
                 <li>
                     <div className="slide">
                         <div className="userinfo">
-                            <img src={user_2} alt="" />
+                            <img src={user_2}/>
                             <div>
                                 <h3>William Avery</h3>
                                 <span>Edusity, USA</span>
@@ -58,7 +58,7 @@ const slideBackward = () =>{
                 <li>
                     <div className="slide">
                         <div className="userinfo">
-                            <img src={user_3} alt="" />
+                            <img src={user_3}/>
                             <div>
                                 <h3>Christina Grey</h3>
                                 <span>Edusity, USA</span>
@@ -70,7 +70,7 @@ const slideBackward = () =>{
                 <li>
                     <div className="slide">
                         <div className="userinfo">
-                            <img src={user_4} alt="" />
+                            <img src={user_4}/>
                             <div>
                                 <h3>George Karev</h3>
                                 <span>Edusity, USA</span>
